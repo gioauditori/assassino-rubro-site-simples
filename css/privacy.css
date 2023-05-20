@@ -1,0 +1,61 @@
+@import url("./bootstrap-icons.css");
+
+@font-face {
+    font-family: HumanisticRoman;
+    src: url(../fonts/Humanist521Roman.woff);
+}
+
+@font-face {
+    font-family: HumanisticBold;
+    src: url(../fonts/Humanist521Bold.woff);
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: column;
+    background-color: #E4DCCF;
+    margin: 0;
+    font-family: HumanisticRoman, sans-serif;
+    color: #111111;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: HumanisticBold, sans-serif;
+    padding: 1rem;
+    color: #CE1348;
+}
+
+p {
+    font-family: HumanisticRoman, sans-serif;
+    font-size: 1.3rem;
+}
+
+#go-back {
+    font-size: 3rem;
+    position: fixed;
+    top: 1rem;
+    left: 2rem;
+}
+
+@media (max-width: 992px) {
+    #go-back {
+        font-size: 2rem;
+        position: fixed;
+        top: 0.7rem;
+        left: 0.1rem;
+    }
+}
+
+#go-back-icon {
+    cursor: pointer;
+}
+
+#logo {
+    position: sticky;
+    display: block;
+    top: 25vh;
+    height: 50vh;
+    margin: auto;
+}
